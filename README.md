@@ -64,13 +64,13 @@ All controls are implemented using physical **switches and keys** on the FPGA de
 
 ## 📁 File Structure
 
-### `TestDice.vhd` – (Edward & Kale)
+### `TestDice.vhd`
 Top-level module responsible for:
 - Integrating all components
 - Managing user inputs/outputs (switches, keys, LEDs, HEX displays)
 - Handling dice roll control logic (start, stop, reset)
 
-### `DiceRoller.vhd` – (Kale)
+### `DiceRoller.vhd`
 Handles rolling logic for each die:
 - Implements an LFSR-based random number generator
 - Supports a finite state machine for roll animation
@@ -104,7 +104,11 @@ Each die result is displayed using **two 7-segment HEX displays**, capable of sh
 
 Photos of 1, 2, and 3 dice rolls with various die sizes will be included here:
 
-> *(Insert images of output here for documentation purposes)*
+![alt text](Images/ThreeDice.png)
+
+![alt text](Images/TwoDice.png)
+
+![alt text](Images/OneDie.png)
 
 ---
 
