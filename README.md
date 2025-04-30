@@ -13,14 +13,14 @@
 
 ## 🔧 Project Overview
 
-This project simulates a digital dice roller on an FPGA, allowing the user to:
+This project simulates a digital dice roller on an FPGA, implemented on the **Cyclone V DE10 board**, allowing the user to:
 - Choose between 1, 2, or 3 dice
 - Select from standard RPG dice (D4, D6, D8, D10, D12, D20)
 - Roll dice using a pushbutton input
 - Stop the dice mid-roll (soft reset)
 - Reset all dice to a value of 1 (hard reset)
 
-All controls are implemented using physical **switches and keys** on the FPGA development board (DE1-SOC).
+All controls are implemented using physical **switches and keys** on the FPGA development board.
 
 ---
 
@@ -133,6 +133,4 @@ Photos of 1, 2, and 3 dice rolls with various die sizes will be included here:
 ## 📜 License
 
 This project is for educational purposes as part of SFU's ENSC 252 course.
-
----
 
